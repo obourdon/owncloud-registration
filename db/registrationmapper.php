@@ -34,6 +34,8 @@ class RegistrationMapper extends Mapper {
 	/** @var \OCP\Security\ISecureRandom */
 	protected $random;
 
+	private $tokenLength = 12;
+
 	public function __construct(IDBConnection $db, ISecureRandom $random) {
 		parent::__construct($db, 'registration', Registration::class);
 		$this->random = $random;
@@ -85,7 +87,7 @@ class RegistrationMapper extends Mapper {
 	 * @param Registration $registration
 	 */
 	public function generateNewToken(Registration &$registration) {
-		$token = $this->random->generate(6, ISecureRandom::CHAR_UPPER.ISecureRandom::CHAR_DIGITS);
+		$token = $this->random->generate($this->tokenLength, ISecureRandom::CHAR_UPPER.ISecureRandom::CHAR_LOWER.ISecureRandom::CHAR_DIGITS);
 		$registration->setToken($token);
 	}
 
