@@ -28,4 +28,10 @@ foreach ( $_['groups'] as $group ) {
 	<input type="checkbox" id="admin_approval_required" name="admin_approval_required" <?php if($_['approval_required'] === "yes" ) echo " checked"; ?>>
 	</label>
 	</p>
+
+	<p>
+	<label for="admin_email_notifications_required"><?php p($l->t('Send email notifications to admin ?')); ?>
+	<input type="checkbox" id="admin_email_notifications_required" name="admin_email_notifications_required" <?php if($_['email_notifications_required'] === "yes" ) echo " checked"; ?>>
+	</label>
+	</p>
 </form>

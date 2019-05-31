@@ -254,7 +254,8 @@ class RegistrationServiceTest extends TestCase {
 	public function settingsCallback1($app, $key, $default) {
 		$map = [
 			'registered_user_group' => 'none',
-			'admin_approval_required' => 'no'
+			'admin_approval_required' => 'no',
+			'admin_email_notifications_required' => 'no'
 		];
 
 		return $map[$key];

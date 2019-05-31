@@ -325,7 +325,10 @@ class RegistrationService {
 			}
 		}
 
-		$this->mailService->notifyAdmins($userId, $registration->getEmail(), $user->isEnabled(), $groupId);
+		$admin_email_notifications_required = $this->config->getAppValue($this->appName, 'admin_email_notifications_required', "no");
+		if ($admin_email_notifications_required === "yes") {
+			$this->mailService->notifyAdmins($userId, $registration->getEmail(), $user->isEnabled(), $groupId);
+		}
 		return $user;
 	}
 

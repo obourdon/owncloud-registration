@@ -47,10 +47,11 @@ class SettingsController extends Controller {
 	 *
 	 * @param string $registered_user_group all newly registered user will be put in this group
 	 * @param string $allowed_domains Registrations are only allowed for E-Mailadresses with these domains
-     * @param bool $admin_approval_required newly registered users have to be validated by an admin
+	 * @param bool $admin_approval_required newly registered users have to be validated by an admin
+	 * @param bool $admin_email_notifications_required email notifications have to be sent to admin
 	 * @return DataResponse
 	 */
-	public function admin($registered_user_group, $allowed_domains, $admin_approval_required) {
+	public function admin($registered_user_group, $allowed_domains, $admin_approval_required, $admin_email_notifications_required) {
 		// handle domains
 		if ( ( $allowed_domains==='' ) || ( $allowed_domains === NULL ) ){
 			$this->config->deleteAppValue($this->appName, 'allowed_domains');
@@ -60,6 +61,8 @@ class SettingsController extends Controller {
 
 		// handle admin validation
 		$this->config->setAppValue($this->appName, 'admin_approval_required', $admin_approval_required ? "yes" : "no");
+		// handle admin email notifications
+		$this->config->setAppValue($this->appName, 'admin_email_notifications_required', $admin_email_notifications_required ? "yes" : "no");
 
 		// handle groups
 		$groups = $this->groupmanager->search('');
@@ -113,11 +116,15 @@ class SettingsController extends Controller {
 		// handle admin validation
 		$admin_approval_required = $this->config->getAppValue($this->appName, 'admin_approval_required', "no");
 
+		// handle admin email notifications
+		$admin_email_notifications_required = $this->config->getAppValue($this->appName, 'admin_email_notifications_required', "no");
+
 		return new TemplateResponse('registration', 'admin', [
 			'groups' => $group_id_list,
 			'current' => $current_value,
 			'allowed' => $allowed_domains,
-			'approval_required' => $admin_approval_required
+			'approval_required' => $admin_approval_required,
+			'email_notifications_required' => $admin_email_notifications_required
 		], '');
 	}
 }
