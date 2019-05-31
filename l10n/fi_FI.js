@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Antamasi sähköpostiosoite ei ole kelvollinen",
     "Verify your %s registration request" : "Vahvista %s-rekisteröitymispyyntösi",
     "A problem occurred sending email, please contact your administrator." : "Sähköpostia lähettäessä tapahtui virhe. Ole yhteydessä ylläpitoon.",
-    "A new user \"%s\" has created an account on %s" : "Uusi käyttäjä \"%s\" on luonut tilin kohteessa %s",
+    "A new user \"%s\" %s has created an account on %s" : "Uusi käyttäjä \"%s\" %s on luonut tilin kohteessa %s",
     "A user has already taken this email, maybe you already have an account?" : "Tämä sähköpostiosoite on jo jonkun käyttäjän käytössä. Oletko varma, ettei sinulla ole jo tunnusta tähän ownCloudiin?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Virheellinen vahvistuksen verkko-osoite. Kyseisellä osoitteella ei löytynyt rekisteröintipyyntöä.",
     "Unable to create user, there are problems with the user backend." : "Käyttäjän luominen ei onnistu. Ongelmia käyttäjätaustaosan kanssa.",

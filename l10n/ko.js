@@ -11,7 +11,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "입력한 이메일 주소가 올바르지 않습니다",
     "Verify your %s registration request" : "%s의 가입 요청을 승인해주세요",
     "A problem occurred sending email, please contact your administrator." : "이메일을 보내는 중 문제가 발생했습니다. 시스템 관리자에게 연락하십시오.",
-    "A new user \"%s\" has created an account on %s" : "새로운 사용자 \"%s\"이(가) %s에 생성되었습니다.",
+    "A new user \"%s\" %s has created an account on %s" : "새로운 사용자 \"%s\" %s이(가) %s에 생성되었습니다.",
     "A user has already taken this email, maybe you already have an account?" : "누군가가 이미 이 메일 주소를 선점했습니다. 계정이 있을 수도 있습니다.",
     "You can <a href=\"%s\">log in now</a>." : " <a href=\"%s\">로그인</a>할 수 있습니다. ",
     "Registration is only allowed for the following domains: " : "다음 도메인에서만 등록이 허용 됩니다:",

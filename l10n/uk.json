@@ -9,7 +9,7 @@
     "Unable to create user, there are problems with the user backend." : "Неможливо створити обліковий запис, проблема на боці користувача.",
     "Unable to set user email: " : "Не можливо встановити користувачу адресу електронної пошти: ",
     "Your account has been successfully created, you can <a href=\"{link}\">log in now</a>." : "Ваш обліковий запис успішно створено, тепер ви можете <a href=\"{link}\">зайти на сайт</a>.",
-    "A new user \"%s\" has created an account on %s" : "Новий користувач \"%s\" зробив обліковий запис у %s",
+    "A new user \"%s\" %s has created an account on %s" : "Новий користувач \"%s\" %s зробив обліковий запис у %s",
     "Saved" : "Збережено",
     "No such group" : "Немає такої групи",
     "Registration" : "Реєстрація",

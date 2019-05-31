@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Du har angivet en ugyldig email-adresse",
     "Verify your %s registration request" : "Verificér din %s forespørgsel om ownCloud-tilmelding",
     "A problem occurred sending email, please contact your administrator." : "Der opstod et problem ved afsendelse af e-mail. Kontakt venligst din administrator.",
-    "A new user \"%s\" has created an account on %s" : "En ny bruger \"%s\" har oprettet en brugerkonto på %s",
+    "A new user \"%s\" %s has created an account on %s" : "En ny bruger \"%s\" %s har oprettet en brugerkonto på %s",
     "A user has already taken this email, maybe you already have an account?" : "En bruger har allerede benyttet denne e-mail - måske fordi du allerede har en konto?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Ugyldig verifikations-URL. Der blev ikke fundet nogen forespørgsel om tilmelding med denne verifikations-URL.",
     "Unable to create user, there are problems with the user backend." : "Kan ikke oprette bruger - der er problemer med bruger-backend.",

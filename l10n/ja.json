@@ -7,7 +7,7 @@
     "The email address you entered is not valid" : "入力されたメールアドレスが正しくありません",
     "Verify your %s registration request" : "%s の登録リクエストを確認してください",
     "A problem occurred sending email, please contact your administrator." : "メール送信時にエラーが発生しました。管理者に連絡してください。",
-    "A new user \"%s\" has created an account on %s" : "新しいユーザー \"%s\" を アカウント名 \"%s\" として作成しました",
+    "A new user \"%s\" %s has created an account on %s" : "新しいユーザー \"%s\" を アカウント名 \"%s\" %s として作成しました",
     "A user has already taken this email, maybe you already have an account?" : "このメールアドレスはすでに使われています。もしかして、すでにアカウントを持っていますか？",
     "Invalid verification URL. No registration request with this verification URL is found." : "確認URLが不正です。この確認URLに紐付く登録リクエストは、ありません。",
     "Unable to create user, there are problems with the user backend." : "ユーザーを作成できません。バックエンドのユーザー管理システムに問題があります。",
@@ -29,7 +29,7 @@
     "Request verification link" : "確認URLリンクをリクエスト",
     "Please re-enter a valid email address" : "有効なメールアドレスを再度入力してください。",
     "You will receive an email with a verification link" : "確認URLの入ったメールをお送り致します。",
-    "A new user \"%s\" has created an account on %s and awaits admin approbation" : "新しいユーザー \"%s\" を アカウント名 \"%s\" として作成しました、今管理者の承認は必要です",
+    "A new user \"%s\" %s has created an account on %s and awaits admin approbation" : "新しいユーザー \"%s\" を アカウント名 \"%s\" %s として作成しました、今管理者の承認は必要です",
     "Your account has been successfully created, but it still needs approval from an administrator." : "アカウントは作成成功しましたけど、管理者の承認は必要です。",
     "Require admin approval?" : "管理者の承認は必要ですか"
 },"pluralForm" :"nplurals=1; plural=0;"

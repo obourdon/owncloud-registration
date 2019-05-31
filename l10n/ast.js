@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "La direición d'email inxertada nun ye válida",
     "Verify your %s registration request" : "Verifica la to solicitú de rexistru %s",
     "A problem occurred sending email, please contact your administrator." : "Hebo un fallu al unviar el corréu-e. Contauta col alministrador.",
-    "A new user \"%s\" has created an account on %s" : "Un nuevu usuariu \"%s\" creó una cuenta en %s",
+    "A new user \"%s\" %s has created an account on %s" : "Un nuevu usuariu \"%s\" %s creó una cuenta en %s",
     "A user has already taken this email, maybe you already have an account?" : "Un usuario ya tien esta direición de corréu, ¿de xuru que nun ties otra cuenta?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Verificación inválida d'URL. Nun esiste nenguna solicitú con esta verificación d'URL.",
     "Unable to create user, there are problems with the user backend." : "Nun pue crease l'usuariu, hai problemes col backend.",

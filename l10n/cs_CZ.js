@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Zadaná emailová adresa není správná",
     "Verify your %s registration request" : "Ověřte svůj požadavek na registraci %s",
     "A problem occurred sending email, please contact your administrator." : "Při odesílání emailu nastala chyba, kontaktujte prosím svého administrátora.",
-    "A new user \"%s\" has created an account on %s" : "Nový uživatel \"%s\" vytvořil účet na %s",
+    "A new user \"%s\" %s has created an account on %s" : "Nový uživatel \"%s\" %s vytvořil účet na %s",
     "A user has already taken this email, maybe you already have an account?" : "Tato emailová adresa je již použita, možná zde již máte účet?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Neplatná ověřovací URL. Nebyl nalezen žádný registrační požadavek pro tuto ověřovací URL.",
     "Unable to create user, there are problems with the user backend." : "Není možné vytvořit uživatelský účet, nastaly potíže v systému úložišti uživatelů.",

@@ -14,7 +14,7 @@ OC.L10N.register(
     "Failed to delete pending registration request" : "Ha fallat en eliminar la petició de registre pendent",
     "Your account has been successfully created, you can <a href=\"{link}\">log in now</a>." : "El seu compte ha estat creada, pot <a href=\"{link}\">connectar-se ara</a>.",
     "Verify your %s registration request" : "Verifiqueu la vostra petició de registre %s",
-    "A new user \"%s\" has created an account on %s" : "Un nou usuari \"%s\" ha creat un compte a %s",
+    "A new user \"%s\" %s has created an account on %s" : "Un nou usuari \"%s\" %s ha creat un compte a %s",
     "Saved" : "Desat",
     "No such group" : "No existeix cap grup",
     "Registration" : "Registre",

@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Adresa de email introdusă nu este validă",
     "Verify your %s registration request" : "Verifică-ți cererea %s de înregistrare",
     "A problem occurred sending email, please contact your administrator." : "A apărut o problemă la trimiterea emailului, te rugăm contactează-ți administratorul.",
-    "A new user \"%s\" has created an account on %s" : "Utilizatorul nou \"%s\" a creat un cont pe %s",
+    "A new user \"%s\" %s has created an account on %s" : "Utilizatorul nou \"%s\" %s a creat un cont pe %s",
     "A user has already taken this email, maybe you already have an account?" : "Un utilizator deja folosește această adresă de email, posibil să ai deja un cont?",
     "Invalid verification URL. No registration request with this verification URL is found." : "URL de verificare invalid. Nu a fost găsită nicio cerere de înregistrare cu acest URL de verificare.",
     "Unable to create user, there are problems with the user backend." : "Nu s-a putut crea utilizatorul, sunt probleme cu subsistemele ce țin de utilizatori.",

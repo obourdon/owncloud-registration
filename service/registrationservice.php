@@ -325,7 +325,7 @@ class RegistrationService {
 			}
 		}
 
-		$this->mailService->notifyAdmins($userId, $user->isEnabled(), $groupId);
+		$this->mailService->notifyAdmins($userId, $registration->getEmail(), $user->isEnabled(), $groupId);
 		return $user;
 	}
 

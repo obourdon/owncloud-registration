@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Sinu poolt sisestatud e-posti aadress pole korrektne",
     "Verify your %s registration request" : "Kinnita oma %s registreerumise soov",
     "A problem occurred sending email, please contact your administrator." : "Kirja saatmisel tekkis tõrge. Palun võta ühendust oma administraatoriga.",
-    "A new user \"%s\" has created an account on %s" : "Uus kasutaja \"%s\" lõi konto saidil %s",
+    "A new user \"%s\" %s has created an account on %s" : "Uus kasutaja \"%s\" %s lõi konto saidil %s",
     "A user has already taken this email, maybe you already have an account?" : "Keegi juba kasutab seda e-posti aadressi. Võib-olla sul juba on konto?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Vigane kinnituse URL. Selle kinnitus URL-iga registreerimise päringut ei leitud.",
     "Unable to create user, there are problems with the user backend." : "Kasutaja loomine ebaõnnestus. Kasutajate adminiliidesega on probleeme.",

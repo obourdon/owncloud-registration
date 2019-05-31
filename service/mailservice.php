@@ -109,7 +109,7 @@ class MailService {
 	 * @param string $userGroupId
 	 * @param bool $userIsEnabled
 	 */
-	public function notifyAdmins($userId, $userIsEnabled, $userGroupId) {
+	public function notifyAdmins($userId, $userEmail, $userIsEnabled, $userGroupId) {
 		// Notify admin
 		$admin_users = $this->groupManager->get('admin')->getUsers();
 
@@ -133,7 +133,7 @@ class MailService {
 			}
 		}
 		try {
-			$this->sendNewUserNotifEmail($to_arr, $userId, $userIsEnabled);
+			$this->sendNewUserNotifEmail($to_arr, $userId, $userEmail, $userIsEnabled);
 		} catch (\Exception $e) {
 			$this->logger->error('Sending admin notification email failed: '. $e->getMessage());
 		}
@@ -146,11 +146,12 @@ class MailService {
 	 * @param bool $userIsEnabled the new user account is enabled
 	 * @throws \Exception
 	 */
-	private function sendNewUserNotifEmail(array $to, $username, $userIsEnabled) {
+	private function sendNewUserNotifEmail(array $to, $username, $email, $userIsEnabled) {
 		$link = $this->urlGenerator->linkToRouteAbsolute('settings.Users.usersList');
 		// TODO: for owncloud, route name should be user_management.users https://github.com/owncloud/user_management/blob/master/appinfo/routes.php#L30
 		$template_var = [
 			'user' => $username,
+			'email' => $email,
 			'sitename' => $this->defaults->getName(),
 			'link' => $link,
 		];

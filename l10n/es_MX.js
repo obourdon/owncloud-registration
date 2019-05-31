@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "El correo que ingresaste no es válido",
     "Verify your %s registration request" : "Verificar tu solicitud de registro %s",
     "A problem occurred sending email, please contact your administrator." : "Ocurrió un problema al mandar correos electrónicos, por favor contacta a tu administrador.",
-    "A new user \"%s\" has created an account on %s" : "Un nuevo usuario \"%s\" ha creado una cuenta en %s",
+    "A new user \"%s\" %s has created an account on %s" : "Un nuevo usuario \"%s\" %s ha creado una cuenta en %s",
     "A user has already taken this email, maybe you already have an account?" : "Un usuario ya ha tomado este correo electrónico, ¿tal vez ya tienes una cuenta?",
     "Invalid verification URL. No registration request with this verification URL is found." : "URL de verificación inválido. No se encontró ninguna solicitud de registro con este URL de verificación.",
     "Unable to create user, there are problems with the user backend." : "No se pudo crear el usuario, hay problemas con el backend de usuario.",

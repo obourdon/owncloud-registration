@@ -11,7 +11,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "E-postadressen som du la enn er ikke gyldig",
     "Verify your %s registration request" : "Verifiser din forespørsel om %s-registrering",
     "A problem occurred sending email, please contact your administrator." : "Et problem oppstod ved sending av mailen. Kontakt administratoren.",
-    "A new user \"%s\" has created an account on %s" : "En ny bruker \"%s\" har opprettet en konto på %s",
+    "A new user \"%s\" %s has created an account on %s" : "En ny bruker \"%s\" %s har opprettet en konto på %s",
     "A user has already taken this email, maybe you already have an account?" : "En bruker har allerede valgt denne mail-adressen. Kanskje du har en konto allerede?",
     "You can <a href=\"%s\">log in now</a>." : "Du kan <a href=\"%s\">logge inn nå</a>.",
     "Registration is only allowed for the following domains: " : "Registrering er tillatt kun for følgende domener:",

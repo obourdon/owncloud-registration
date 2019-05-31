@@ -9,7 +9,7 @@ OC.L10N.register(
     "The email address you entered is not valid" : "Het e-mailadres dat u heeft ingevuld is niet geldig",
     "Verify your %s registration request" : "Controleer uw %s registratie verzoek",
     "A problem occurred sending email, please contact your administrator." : "Er ontstond een probleem bij het versturen van het e-mailbericht, neem contact op met uw beheerder.",
-    "A new user \"%s\" has created an account on %s" : "Een nieuwe gebruiker \"%s\" heeft een account gecreëerd op %s",
+    "A new user \"%s\" %s has created an account on %s" : "Een nieuwe gebruiker \"%s\" %s heeft een account gecreëerd op %s",
     "A user has already taken this email, maybe you already have an account?" : "Een gebruiker heeft dit e-mailadres al, misschien hebt u al een account?",
     "Invalid verification URL. No registration request with this verification URL is found." : "Ongeldige verificatie URL. Er is geen aanvraag voor registratie met deze URL gevonden.",
     "Unable to create user, there are problems with the user backend." : "Kan gebruikersaccount niet creëren, er zijn problemen met gebruiker's backend.",

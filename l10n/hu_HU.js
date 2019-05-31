@@ -12,7 +12,7 @@ OC.L10N.register(
     "Failed to delete pending registration request" : "Hiba történt a függőben lévő regisztráció kérelem törlésekor.",
     "Your account has been successfully created, you can <a href=\"{link}\">log in now</a>." : "A fiókod sikeresen elkészült, most már <a href=\"{login}\">bejelentkezhetsz itt</a>.",
     "Verify your %s registration request" : "Hitelesítsd a(z) %s regisztrációs kérelmed",
-    "A new user \"%s\" has created an account on %s" : "\"%s\" felhasználó létrehozva %s fiókkal.",
+    "A new user \"%s\" %s has created an account on %s" : "\"%s\" %s felhasználó létrehozva %s fiókkal.",
     "Saved" : "Elmentve!",
     "No such group" : "Nem létező csoport",
     "Registration" : "Regisztráció",
