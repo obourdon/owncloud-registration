@@ -24,6 +24,7 @@ From your Nextcloud instance, click: your profile to the upper right -> Apps -> 
 
 - Admin can specify which group the newly created users belong
 - Admin can limit the email domains allowed to register
+- Admin can ask to validate user
 - Admin will be notified by email for new user creation
 
 # Web form registration flow
