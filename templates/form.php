@@ -29,9 +29,15 @@ if ( \OCP\Util::getVersion()[0] >= 12 )
 			<img id="username-icon" class="svg" src="<?php print_unescaped(image_path('', 'actions/user.svg')); ?>" alt=""/>
 		</p>
 
-		<p class="groupbottom">
-			<input type="password" name="password" id="password" placeholder="<?php p($l->t('Password')); ?>"/>
+		<p class="groupmiddle">
+			<input type="password" name="password" id="password" class="password" placeholder="<?php p($l->t('Password')); ?>"/>
 			<label for="password" class="infield"><?php p($l->t( 'Password' )); ?></label>
+			<img id="password-icon" class="svg" src="<?php print_unescaped(image_path('', 'actions/password.svg')); ?>" alt=""/>
+		</p>
+
+		<p class="groupbottom">
+			<input type="password" name="password2" id="password" class="password" placeholder="<?php p($l->t('Retype password')); ?>"/>
+			<label for="password" class="infield"><?php p($l->t( 'Retype password' )); ?></label>
 			<img id="password-icon" class="svg" src="<?php print_unescaped(image_path('', 'actions/password.svg')); ?>" alt=""/>
 			<input id="show" name="show" type="checkbox">
 			<label id="show-password" style="display: inline;" for="show"><?php p($l->t( 'Show password' )); ?></label>
